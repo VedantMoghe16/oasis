@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://oasis-perfume-ritual.anant-asati-moodi.chatgpt.site/sitemap.xml
