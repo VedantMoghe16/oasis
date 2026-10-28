@@ -1,0 +1,1 @@
+const opening=document.querySelector('#opening');const reduced=matchMedia('(prefers-reduced-motion: reduce)').matches;let leaving=false;function enterShop(){if(leaving)return;leaving=true;opening.classList.add('leaving');setTimeout(()=>{window.location.replace('shop.html')},reduced?100:850)}setTimeout(enterShop,reduced?700:7100);
